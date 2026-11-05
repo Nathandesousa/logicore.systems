@@ -645,12 +645,12 @@ h3 { color: var(--primary); margin: 10px 0 8px; font-size: 15px; }
 
 /* Assinatura */
 .assinatura {
-    position: absolute;
-    bottom: 16px;
-    right: 16px;
+    position: static;
+    text-align: center;
     font-size: 12px;
     opacity: 0.6;
     color: var(--text-muted);
+    padding: 16px 0 24px;
 }
 
 /* ===== Melhorias mobile / toque ===== */
